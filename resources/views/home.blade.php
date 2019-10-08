@@ -15,10 +15,6 @@ HALOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
                     @endif
 
                     You are logged in!
-<form action="{{ url('list/barang') }}" method="get">
-
-    <input type="button" value="Buy">
-</form>
 <a href="{{ url('list/barang') }}">List</a>
                 </div>
             </div>
